@@ -1,0 +1,434 @@
+/*common----------*/
+/*全体のフォント指定*/
+body{
+  font-family: "Hiragino Kaku Gothic ProN" ,
+  "游ゴシック" , "Yu Gothic" , "メイリオ",
+  Century Gothic, Futura, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+@font-face {
+	font-family: 'CenturyGothicBold';
+	src: url('../font/centurygothicbold-webfont.eot'); /* IE9 Compat Modes */
+	src: url('../font/centurygothicbold-webfont.eot?#iefix') format('embedded-opentype'), /* eof - IE6-IE8 */
+	     url('../font/centurygothicbold-webfont.woff') format('woff'), /* woff - Modern Browsers */
+	     url('../font/centurygothicbold-webfont.ttf')  format('truetype'), /* ttf - Safari, Android, iOS */
+	     url('../font/centurygothicbold-webfont.svg#svgFontName') format('svg'); /* svg - Legacy iOS */
+}
+/*全体のリンク指定*/
+a{
+  text-decoration: none;
+}
+a:hover{
+  color: #dddddd;
+}
+/*全体のレイアウト*/
+
+#great_wrapper{
+  max-width: 1280px;
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+}
+#main{
+  position: relative;
+  width: 100%;
+  height: 2700px;
+  background: url(../img/clear_back2.png) 0 0 no-repeat;
+  background-size: cover;
+}
+#moyashi {
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px 7px rgba(0, 0, 0, 0.15);
+  position: absolute;
+  left: 188px;
+  top: 86px;
+  width: 165px;
+  height: 165px;
+}
+#mitsugu {
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px 7px rgba(0, 0, 0, 0.15);
+  position: absolute;
+  left: 47px;
+  top: 189px;
+  width: 165px;
+  height: 165px;
+}
+#pigg {
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px 7px rgba(0, 0, 0, 0.15);
+  position: absolute;
+  left: 349px;
+  top: 160px;
+  width: 165px;
+  height: 165px;
+}
+#endride {
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px 7px rgba(0, 0, 0, 0.15);
+  position: absolute;
+  left: 502px;
+  top: 248px;
+  width: 165px;
+  height: 165px;
+}
+#onee {
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px 7px rgba(0, 0, 0, 0.15);
+  position: absolute;
+  left: 627px;
+  top: 125px;
+  width: 165px;
+  height: 165px;
+}
+#bys2 {
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px 7px rgba(0, 0, 0, 0.15);
+  position: absolute;
+  left: 677px;
+  top: -40px;
+  width: 165px;
+  height: 165px;
+}
+#gf2 {
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px 7px rgba(0, 0, 0, 0.15);
+  position: absolute;
+  left: 850px;
+  top: -30px;
+  width: 165px;
+  height: 165px;
+}
+#a755_2 {
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px 7px rgba(0, 0, 0, 0.15);
+  position: absolute;
+  left: 804px;
+  top: 162px;
+  width: 165px;
+  height: 165px;
+}
+#ninjya {
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px 7px rgba(0, 0, 0, 0.15);
+  position: absolute;
+  left: 977px;
+  top: 107px;
+  width: 165px;
+  height: 165px;
+}
+#AbemaTV {
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px 7px rgba(0, 0, 0, 0.15);
+  position: absolute;
+  left: 674px;
+  top: 285px;
+  width: 165px;
+  height: 165px;
+}
+#slash {
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px 7px rgba(0, 0, 0, 0.15);
+  position: absolute;
+  left: 896px;
+  top: 320px;
+  width: 165px;
+  height: 165px;
+}
+#tappuru {
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px 7px rgba(0, 0, 0, 0.15);
+  position: absolute;
+  left: 1068px;
+  top: 279px;
+  width: 165px;
+  height: 165px;
+}
+#sakamoto {
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px 7px rgba(0, 0, 0, 0.15);
+  position: absolute;
+  left: 134px;
+  top: 424px;
+  width: 165px;
+  height: 165px;
+}
+#AWA {
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px 7px rgba(0, 0, 0, 0.15);
+  position: absolute;
+  left: 310px;
+  top: 425px;
+  width: 165px;
+  height: 165px;
+}
+#Ownd {
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px 7px rgba(0, 0, 0, 0.15);
+  position: absolute;
+  left: 498px;
+  top: 432px;
+  width: 165px;
+  height: 165px;
+}
+#girls3 {
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px 7px rgba(0, 0, 0, 0.15);
+  position: absolute;
+  left: 678px;
+  top: 460px;
+  width: 165px;
+  height: 165px;
+}
+#fresh {
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px 7px rgba(0, 0, 0, 0.15);
+  position: absolute;
+  left: 854px;
+  top: 488px;
+  width: 165px;
+  height: 165px;
+}
+#birdman {
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px 7px rgba(0, 0, 0, 0.15);
+  position: absolute;
+  left: 1023px;
+  top: 448px;
+  width: 165px;
+  height: 165px;
+}
+#spotlight {
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px 7px rgba(0, 0, 0, 0.15);
+  position: absolute;
+  left: 48px;
+  top: 580px;
+  width: 165px;
+  height: 165px;
+}
+#rpg {
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px 7px rgba(0, 0, 0, 0.15);
+  position: absolute;
+  left: 221px;
+  top: 580px;
+  width: 165px;
+  height: 165px;
+}
+#furugiya {
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px 7px rgba(0, 0, 0, 0.15);
+  position: absolute;
+  left: 396px;
+  top: 570px;
+  width: 165px;
+  height: 165px;
+}
+#live_you {
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px 7px rgba(0, 0, 0, 0.15);
+  position: absolute;
+  left: 973px;
+  top: 619px;
+  width: 165px;
+  height: 165px;
+}
+header{
+  background: url(../img/clear_back1.png) 0 0 no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 805px;
+  z-index: 1000;
+}
+
+h1{
+  position: absolute;
+  top: 23px;
+  left: 23px;
+}
+#drawer{
+  position: absolute;
+  top: 29px;
+  right: 33px;
+}
+#catch_copy{
+  position: absolute;
+  top: 340px;
+  left: 25px;
+  z-index: 100;
+}
+#wrapper_great_nav{
+    width: 1300px;
+    height: 120px;
+    background: url(../img/nav_bar.png) no-repeat;
+    background-size: cover;
+    position: absolute;
+    bottom: 128px;
+    z-index: 50;
+
+}
+#wrapper_nav{
+  width: 811px;
+  margin: 0 auto;
+}
+.nav_box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 46px
+}
+#sort_nav{
+  font-family: centuryGothicBold;
+  font-size: 24px;
+}
+.nav_box #all_nav a{
+  color: #82be28;
+  font-weight: bold;
+}
+.nav_box #mm_nav a{
+  color: #98d9d7;
+  font-weight: bold;
+}
+.nav_box #community_nav a{
+  color: #fcec00;
+  font-weight: bold;
+}
+.nav_box #game_nav a{
+  color: #f29c9f;
+  font-weight: bold;
+}
+.nav_box #others_nav a{
+  color: #c277bb;
+  font-weight: bold;
+}
+  /*nav----------------------------*/
+/*header-------------------------*/
+
+#wrapper_pickup{
+  width: 1280px;
+  height: 846px;
+  margin: 0 auto;
+  position: absolute;
+  top: 808px;
+}
+#pickup{
+  width: 1000px;
+  margin: 0 auto;
+}
+.border50{
+  width: 50px;
+  height: 20px;
+  border-top: 1px #333333 solid;
+  margin: 0 auto;
+}
+#pickup h2{
+  font-family: CenturyGothicBold;
+  font-size: 48px;
+  width: 219px;
+  margin: 0 auto;
+}
+#four_category{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.text_area{
+  width: 216px;
+  margin: 0 auto;
+}
+#music_movie{
+  width: 250px;
+  height: 600px;
+  background-color: #eeeeee;
+  text-align: center;
+}
+#community{
+  width: 250px;
+  height: 600px;
+  background-color: #dddddd;
+  text-align: center;
+}
+#game{
+  width: 250px;
+  height: 600px;
+  background-color: #eeeeee;
+  text-align: center;
+}
+#others{
+  width: 250px;
+  height: 600px;
+  background-color: #dddddd;
+  text-align: center;
+}
+.contents_area{
+  margin-top: 23px;
+}
+h3{
+  font-family: CenturyGothicBold;
+  font-size: 30px;
+  line-height: 1.33;
+}
+#alternative{
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.5;
+}
+.lead_text{
+  font-size: 16px;
+  margin-top: 25px;
+  margin-bottom: 27px;
+}
+#service_info{
+  width: 1280px;
+}
+#wrapper_info{
+  width: 1000px;
+  margin: 0 auto;
+}
+#box_info1{
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+#box_info2{
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+.info{
+  width: 485px;
+  display: flex;
+  justify-content: space-between;
+}
+.info_text{
+  width: 310px;
+}
+#service_info h2{
+  font-family: CenturyGothicBold;
+  font-size: 48px;
+  width: 322px;
+  margin: 0 auto;
+}
+#readmore{
+  width: 201px;
+  margin: 0 auto;
+}
+
+/*contents-----------------------*/
+#footer_link{
+  display: flex;
+  justify-content: center;
+}
+footer li a{
+  color: #333333;
+  font-weight: bold;
+}
+/*footer-------------------------*/
