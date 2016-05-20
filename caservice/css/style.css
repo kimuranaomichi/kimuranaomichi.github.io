@@ -285,6 +285,7 @@ h1{
 #sort_nav{
   font-family: centuryGothicBold;
   font-size: 24px;
+  color: #333333;
 }
 .nav_box #all_nav a{
   color: #82be28;
@@ -313,6 +314,7 @@ h1{
   width: 1280px;
   height: 846px;
   margin: 0 auto;
+  padding-top: 50px;
   position: absolute;
   top: 808px;
 }
@@ -346,24 +348,28 @@ h1{
   height: 600px;
   background-color: #eeeeee;
   text-align: center;
+  position: relative;
 }
 #community{
   width: 250px;
   height: 600px;
   background-color: #dddddd;
   text-align: center;
+  position: relative;
 }
 #game{
   width: 250px;
   height: 600px;
   background-color: #eeeeee;
   text-align: center;
+  position: relative;
 }
 #others{
   width: 250px;
   height: 600px;
   background-color: #dddddd;
   text-align: center;
+  position: relative;
 }
 .contents_area{
   margin-top: 23px;
@@ -373,18 +379,35 @@ h3{
   font-size: 30px;
   line-height: 1.33;
 }
+#tv{
+  margin-top: 25px;
+}
 #alternative{
   font-weight: bold;
   font-size: 26px;
   line-height: 1.5;
+  margin-top: 25px;
+}
+.line1{
+  line-height: 3.45;
 }
 .lead_text{
   font-size: 16px;
-  margin-top: 25px;
-  margin-bottom: 27px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
+.textbox{
+  margin-bottom: 23px;
+}
+.text{
+  padding-bottom: 15px;
+}
+/*pickupここまで------------*/
+
 #service_info{
   width: 1280px;
+  position: absolute;
+  top: 1800px;
 }
 #wrapper_info{
   width: 1000px;
@@ -410,6 +433,16 @@ h3{
 }
 .info_text{
   width: 310px;
+  height: 150px;
+}
+.info_lead{
+  margin-top: 14px;
+  line-height: 1.8;
+}
+.date{
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 20px
 }
 #service_info h2{
   font-family: CenturyGothicBold;
@@ -423,12 +456,39 @@ h3{
 }
 
 /*contents-----------------------*/
-#footer_link{
+footer{
+  width: 1000px;
+  position: relative;
+  margin: 0 auto;
+}
+#wrapper_footer{
+  width: 1000px;
+  position: absolute;
+  bottom: 26px;
+}
+#pagetop{
+  position: absolute;
+  right: 0px;
+  bottom: 150px;
+}
+#logo_link{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+
+}
+#footer_link{
+  width: 718px;
+}
+.footer_list{
+  display: flex;
+  justify-content: space-between;
 }
 footer li a{
+  font-size: 12px;
   color: #333333;
   font-weight: bold;
+}
+footer p{
+  font-size: 11px;
 }
 /*footer-------------------------*/
