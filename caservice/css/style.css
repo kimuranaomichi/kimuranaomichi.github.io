@@ -256,6 +256,18 @@ h1{
   top: 29px;
   right: 33px;
 }
+#drawer_menu:hover #menu{
+  display: block;
+}
+#drawer_menu:hover #drawer{
+  display: none;
+}
+#menu{
+  position: absolute;
+  right: 0px;
+  z-index: 500;
+  display: none;
+}
 #catch_copy{
   position: absolute;
   top: 340px;
