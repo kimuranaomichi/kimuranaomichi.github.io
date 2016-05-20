@@ -242,7 +242,7 @@ header{
   top: 0;
   left: 0;
   width:100%;
-  height: 805px;
+  height: 810px;
   z-index: 1000;
 }
 
@@ -280,7 +280,7 @@ h1{
     background: url(../img/nav_bar.png) no-repeat;
     background-size: cover;
     position: absolute;
-    bottom: 128px;
+    bottom: 120px;
     z-index: 50;
 
 }
