@@ -1,0 +1,165 @@
+/*common----------*/
+/*全体のフォント指定*/
+body{
+  font-family: "Hiragino Kaku Gothic ProN" ,
+  "游ゴシック" , "Yu Gothic" , "メイリオ",
+  Univers, Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  line-height: 2;
+}
+/*全体のリンク指定*/
+a{
+  color: #0099cc;
+  text-decoration: none;
+}
+a:hover{
+  color: #ff9900;
+}
+/*全体のレイアウト*/
+/*header-------------------------*/
+#main_visual{
+  width: 100%;
+  height: 734px;
+  background-image: url(../img/main.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#wrapper_reserve{
+  width: 1140px;
+  margin: 0 auto;
+}
+#form_reserve{
+  position: absolute;
+  top: 676px;
+  z-index: 10;
+}
+/*nav----------------------------*/
+
+#wrapper_nav{
+  width: 1140px;
+  height: 107px;
+  margin: 0 auto;
+  position: relative;
+}
+#wrapper_nav h1{
+  margin-left: 3px;
+}
+#gbmn{
+  width: 1140px;
+  height: 107px;
+  position: absolute;
+  top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+#gbmn a{
+  color: #ffffff;
+}
+#list_button{
+  width: 752px;
+  height: 95px;
+  display: flex;
+  justify-content: space-between;
+}
+#nav_list{
+  width:614px;
+  height: 50px;
+  margin-top: 10px;
+}
+#language{
+  width: 230px;
+  display: block;
+  margin-left: auto;
+  margin-bottom: 5px;
+}
+.language{
+  display: flex;
+  justify-content: space-between;
+}
+.language a{
+  font-size: 11px;
+}
+#menu{
+  width: 614px;
+  display: block;
+}
+.menu{
+  display: flex;
+  justify-content: space-between;
+}
+.menu a{
+  font-size: 14px;
+}
+#wrapper_nav_button{
+  width: 106px;
+  height: 95px;
+  margin-top: -16px;
+  border: 1px #ffffff solid;
+}
+#nav_button{
+  text-align: center;
+  height: 44px;
+  margin-top: 20px;
+}
+#yoyaku_ja{
+  font-size: 20px;
+  margin-bottom: -3px;
+}
+#yoyaku_en{
+  font-size: 11px;
+}
+/*contents-----------------------*/
+#ROOMS{
+  width: 100%;
+  height: 680px;
+  background-color: #f7f7f7;
+  background-image: url(../img/rooms.png);
+  background-position: left 60px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+#wrapper_rooms{
+  display: flex;
+  width: 1180px;
+  height: 630px;
+  margin: 0 auto;
+  background-position: left;
+}
+#rooms_white_area{
+  width: 500px;
+  height: 630px;
+  background-color: white;
+  padding-top: 172px;
+  padding-left: 70px;
+}
+#rooms_white_area p{
+  width: 290px;
+  text-align: justify;
+  /*hanging-punctuation: force-end;*/
+}
+.border{
+  width: 50px;
+  border-top: 1px #666666 solid;
+}
+.japanese{
+  font-size: 28px;
+  font-weight: normal;
+  padding-top: 30px;
+}
+.english{
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+#room_button{
+  margin-top: 86px;
+}
+#bayside_room{
+  height: 390px;
+  width: 848px;
+  position: absolute;
+  top: 172px;
+  left:480px;
+}
+
+/*footer-------------------------*/
